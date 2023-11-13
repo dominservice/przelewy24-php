@@ -12,8 +12,6 @@ The library was copied to implement payment card support from [dbojdo](https://g
 
 - PHP >=8.1
 
-For lower PHP versions, check the [0.x](https://github.com/dominservice/przelewy24-php/tree/0.x) versions.
-
 ## Installation
 
 ```shell
