@@ -1,15 +1,28 @@
 {
-    "name": "mnastalski/przelewy24-php",
+    "name": "dominservice/przelewy24-php",
     "description": "Przelewy24 PHP library",
     "keywords": [
         "przelewy24",
-        "payments"
+        "payments",
+        "Cards",
+        "Charge card",
+        "Płatności",
+        "płatność kartą",
+        "płatności rekurencyjne",
+        "subskrypcja"
     ],
     "type": "library",
     "license": "MIT",
-    "homepage": "https://github.com/mnastalski/przelewy24-php",
+    "homepage": "https://github.com/dominservice/przelewy24-php",
     "authors": [
         {
+            "name": "Mateusz Domin",
+            "homepage": "https://dso.biz.pl",
+            "email": "biuro@dso.biz.pl"
+        }, {
+            "name": "dbojdo",
+            "email": "daniel@bojdo.eu"
+        },{
             "name": "Mateusz Nastalski",
             "homepage": "https://nastalski.pl"
         }

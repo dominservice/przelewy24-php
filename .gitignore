@@ -1,5 +1,6 @@
 # Folders
 /vendor
+/.idea
 
 # Files
 .php-cs-fixer.cache

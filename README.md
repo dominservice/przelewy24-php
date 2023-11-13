@@ -2,20 +2,22 @@
 
 PHP wrapper for [Przelewy24](https://www.przelewy24.pl/).
 
-If you are using Laravel, check out [mnastalski/przelewy24-laravel](https://github.com/mnastalski/przelewy24-laravel/).
+If you are using Laravel, check out [dominservice/przelewy24-laravel](https://github.com/dominservice/przelewy24-laravel/).
 
 Przelewy24's API documentation is available at https://developers.przelewy24.pl/.
+
+The library was copied to implement payment card support from [dbojdo](https://github.com/dbojdo/).
 
 ## Requirements
 
 - PHP >=8.1
 
-For lower PHP versions, check the [0.x](https://github.com/mnastalski/przelewy24-php/tree/0.x) versions.
+For lower PHP versions, check the [0.x](https://github.com/dominservice/przelewy24-php/tree/0.x) versions.
 
 ## Installation
 
 ```shell
-composer require mnastalski/przelewy24-php
+composer require dominservice/przelewy24-php
 ```
 
 ## Usage
@@ -49,9 +51,9 @@ $transaction = $przelewy24->transactions()->register(
     // Optional parameters:
     urlStatus: 'url to which the transaction status webhook will be sent',
 
-    // client: 'Mateusz Nastalski',
+    // client: 'Mateusz Domin',
     // currency: \Przelewy24\Enums\Currency::EUR,
-    // language: Language::ENGLISH,
+    // language: Language::POLISH,
     // ...
 );
 ```
